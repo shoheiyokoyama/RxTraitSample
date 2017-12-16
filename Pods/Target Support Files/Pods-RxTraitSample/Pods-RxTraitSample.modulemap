@@ -1,0 +1,6 @@
+framework module Pods_RxTraitSample {
+  umbrella header "Pods-RxTraitSample-umbrella.h"
+
+  export *
+  module * { export * }
+}
