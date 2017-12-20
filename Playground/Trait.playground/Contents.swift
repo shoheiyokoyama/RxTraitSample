@@ -35,6 +35,13 @@ singleObservable
     })
     .disposed(by: disposeBag)
 
+// same as `singleObservable`
+Observable.just(1).asSingle()
+    .subscribe({
+        print($0)
+    })
+    .disposed(by: disposeBag)
+
 enum Result {
     case success
     case error(Error)
